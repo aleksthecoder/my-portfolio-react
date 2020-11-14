@@ -1,0 +1,19 @@
+.navBar {
+    background-color: var(--dark-gray);
+    height: 5vh;
+}
+.navBar * {
+    display: flex;
+}
+.logo {
+   height: 100%;
+   width: 15%;
+   align-items: center;
+   justify-content: center;
+}
+.logoText {
+    color: var(--turquoise);
+}
+.logoIcon {
+    color: var(--white);
+}

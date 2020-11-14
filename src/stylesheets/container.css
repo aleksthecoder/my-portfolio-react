@@ -1,0 +1,62 @@
+@-webkit-keyframes animateClipPath {
+    0% {
+      -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 86%, 68% 91%, 30% 100%, 0 94%, 0 0);
+              clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 86%, 68% 91%, 30% 100%, 0 94%, 0 0);
+    }
+    50% {
+      -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 86%, 68% 91%, 29% 90%, 0 94%, 0 0);
+              clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 86%, 68% 91%, 29% 90%, 0 94%, 0 0);
+    }
+    100% {
+      -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 86%, 68% 91%, 30% 100%, 0 94%, 0 0);
+              clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 86%, 68% 91%, 30% 100%, 0 94%, 0 0);
+    }
+  }
+  @keyframes animateClipPath {
+    0% {
+      -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 86%, 68% 91%, 30% 100%, 0 94%, 0 0);
+              clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 86%, 68% 91%, 30% 100%, 0 94%, 0 0);
+    }
+    50% {
+      -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 86%, 68% 91%, 29% 90%, 0 94%, 0 0);
+              clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 86%, 68% 91%, 29% 90%, 0 94%, 0 0);
+    }
+    100% {
+      -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 86%, 68% 91%, 30% 100%, 0 94%, 0 0);
+              clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 86%, 68% 91%, 30% 100%, 0 94%, 0 0);
+    }
+}
+.container {
+
+}
+#main_section {
+    background-color: var(--turquoise);
+    min-height: 45vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    animation: animateClipPath 10s infinite forwards;
+}
+#services_section {
+    min-height: 50vh;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#projects_section {
+    min-height: 70vh;
+    background-color: var(--turquoise);
+    animation: animateClipPath 25s infinite forwards;
+
+}
+#contact_section {
+    min-height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--white);
+}

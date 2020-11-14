@@ -1,0 +1,20 @@
+footer {
+    height: 5vh;
+    border-top: 1px solid var(--turquoise);
+    background-color: var(--dark-gray);
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.legalInformation {
+    color: var(--turquoise);
+}
+.socialIcons {
+    width: 25%;
+    height: 100%;
+    color: var(--turquoise);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
