@@ -6,12 +6,21 @@
 @media only screen 
    and (min-width : 768px) {
       html {
-         font-size: 14px;
+
+      }
+
+      nav {
+         width: 75vw;
+         margin: auto;
       }
       .logoText, .logoIcon {
-         font-size: 2vw;
+         padding: 1px;
       }
-      
+      .container {
+         width: 75%;
+         min-width: 375px;
+         margin: auto;
+      }
       #main_section {
          height: 45vh;
       }
@@ -26,9 +35,7 @@
          width: 30vw;
          border-bottom: none;
       }
-      .serviceIcon {
-         font-size: 4vw;
-      }
+
       .serviceBody {
          text-align: center;
       }
@@ -36,11 +43,12 @@
          width: 35vw;
          height: 30vh;
       }
-      .projectLink {
-         font-size: 3vw;
+      .projectLink, .socialIcon {
+         padding: 1vw;
       }
-      .socialIcon {
-         font-size: 3vw;
+      footer {
+         width: 75vw;
+         margin: auto;
       }
    }
 /* Laptop */

@@ -1,6 +1,7 @@
 .navBar {
     background-color: var(--dark-gray);
     height: 5vh;
+    padding: var(--padding-mobile);
 }
 .navBar * {
     display: flex;
@@ -9,7 +10,7 @@
    height: 100%;
    width: 25%;
    align-items: center;
-   justify-content: center;
+   justify-content: flex-start;
 }
 .logoText {
     color: var(--turquoise);

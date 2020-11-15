@@ -64,7 +64,10 @@
 #contact_section h3 {
     color: var(--turquoise);
 }
-
+#contact_section a {
+  color: var(--blue);
+  text-decoration: none;
+}
 @media only screen and (min-width: 450px) {
   
 }

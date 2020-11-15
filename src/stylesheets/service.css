@@ -13,12 +13,13 @@
 }
 .serviceIcon {
     color: var(--turquoise);
-    font-size: 4vh;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
     height: 100%;
+    font-size: 3vh;
+    
 }
 .serviceBody {
     display: flex;
@@ -27,11 +28,9 @@
     flex-direction: column;
     justify-content: center;
     line-height: 2vh;
-    font-size: 1.5vh;
     padding: var(--padding-mobile);
 }
 .serviceBody h3 {
     color: var(--turquoise);
-    font-size: 2vh;
 }
 

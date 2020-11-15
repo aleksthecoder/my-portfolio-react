@@ -1,6 +1,6 @@
 .projectTile {
     width: 85vw;
-    height: 18vh;
+    height: 30vh;
     margin: auto;
     display: flex;
     justify-content: space-around;
@@ -10,5 +10,6 @@
 }
 .projectLink {
     color: var(--dark-gray);
-    font-size: 5vw;
+    font-size: 3vh;
 }
+
