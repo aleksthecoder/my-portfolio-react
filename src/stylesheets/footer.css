@@ -16,6 +16,13 @@ footer {
     height: 100%;
     color: var(--turquoise);
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.socialIcon {
+    display: flex;
     justify-content: center;
     align-items: center;
-}
+    font-size: 5vw;
+ }

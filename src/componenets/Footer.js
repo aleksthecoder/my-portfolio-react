@@ -1,5 +1,6 @@
 import React from 'react'
 import '../stylesheets/footer.css'
+import Icon from '../componenets/Icon'
 
 function Footer() {
     return (
@@ -8,7 +9,24 @@ function Footer() {
                 Copyrights @ 2020 CodeAleks
             </div>
             <div className='socialIcons'>
-                
+            <a href='#' className='socialIcon'>
+                <Icon
+                    iconName = 'github'
+                    iconPrefix = 'fab'
+                />
+            </a>
+            <a href='#' className='socialIcon'>
+                <Icon
+                    iconName = 'codepen'
+                    iconPrefix = 'fab'
+                />
+            </a>
+            <a href='#' className='socialIcon'>
+                <Icon
+                    iconName = 'twitter'
+                    iconPrefix = 'fab'
+                />
+            </a>
             </div>
         </footer>
     )

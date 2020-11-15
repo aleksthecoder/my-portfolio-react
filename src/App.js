@@ -5,6 +5,9 @@ import Service from './componenets/Service'
 import ProjecTile from './componenets/ProjectTile'
 import Footer from './componenets/Footer'
 
+import './stylesheets/index.css'
+import './stylesheets/responsive.css'
+import 'font-awesome/css/font-awesome.min.css';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
@@ -14,12 +17,16 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 import Typography from 'typography'
 import parnassusTheme from 'typography-theme-parnassus'
 
-parnassusTheme.baseFontSize = '12px'
-parnassusTheme.baseLineHeight = '3px'
+
+const mqMobile = window.matchMedia('(min-witdh: 1200px)');
 
 const typography = new Typography(parnassusTheme)
+
+parnassusTheme.baseFontSize = '14px'
+
 typography.injectStyles()
-library.add(fas, fab);
+
+library.add(fas, fab)
 
 
 function App() {
@@ -62,18 +69,7 @@ function App() {
               iconName = 'github'
               iconPrefix = 'fab'
             />
-            <ProjecTile
-              projectTitle = 'Project 2'
-              projectLink = 'http://google.com'
-              iconName = 'github'
-              iconPrefix = 'fab'
-            />
-            <ProjecTile
-              projectTitle = 'Project 3'
-              projectLink = 'http://google.com'
-              iconName = 'github'
-              iconPrefix = 'fab'
-            />
+            
           </Container>
           <Container id='contact_section'>
             <h3>Lets work</h3>

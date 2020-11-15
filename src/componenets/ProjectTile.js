@@ -10,7 +10,7 @@ function ProjectTile(props) {
             </div>
 
             <div className='projectLinks'>
-                <a href={props.projectLink} className='projectLink'>
+                <a href={props.projectLinkOne} className='projectLink'>
                     <Icon
                         iconName = {props.iconName}
                         iconPrefix = {props.iconPrefix}

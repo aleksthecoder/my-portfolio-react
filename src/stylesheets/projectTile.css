@@ -9,6 +9,6 @@
     border-bottom: 1px solid var(--dark-gray);
 }
 .projectLink {
-    text-decoration: none;
     color: var(--dark-gray);
+    font-size: 5vw;
 }
