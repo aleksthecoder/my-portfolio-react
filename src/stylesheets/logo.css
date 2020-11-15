@@ -58,9 +58,9 @@
 }
 .logoText {
     text-transform: uppercase;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 .logoIcon {
     animation: gradientColorChange 5s infinite forwards; 
-    font-size: 2vw;
+    font-size: 3vw;
 }

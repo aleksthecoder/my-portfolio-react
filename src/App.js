@@ -11,6 +11,12 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 
 
+import Typography from 'typography'
+const typography = new Typography({
+  baseFontSize: '13px',
+})
+typography.injectStyles()
+
 library.add(fas, fab);
 
 function App() {
