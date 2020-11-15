@@ -8,7 +8,7 @@ function Footer() {
                 Copyrights @ 2020 CodeAleks
             </div>
             <div className='socialIcons'>
-                Link Link Link Link
+                
             </div>
         </footer>
     )

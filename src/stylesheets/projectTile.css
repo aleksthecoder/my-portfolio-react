@@ -1,0 +1,10 @@
+.projectTile {
+    width: 85vw;
+    height: 18vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid var(--dark-gray);
+}

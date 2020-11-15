@@ -1,8 +1,9 @@
 .service {
-    flex-direction: column;
-    width: 30vw;
+    flex-direction: row;
+    width: 75vw;
+    height: 25vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     color: var(--white);
 }
@@ -13,7 +14,8 @@
 }
 .serviceIcon {
     color: var(--turquoise);
-    font-size: 5vw;
+    font-size: 10vw;
+    padding: 1vw;
     display: flex;
     justify-content: center;
     align-items: center;

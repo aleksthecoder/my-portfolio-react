@@ -1,4 +1,6 @@
 import React from 'react'
+import Icon from './Icon'
+import '../stylesheets/logo.css'
 
 function Logo(props) {
     return (
@@ -7,7 +9,10 @@ function Logo(props) {
             c
             </div>
             <div className='logoIcon'>
-                <i className="fas fa-circle-notch" aria-hidden="true"></i>
+                <Icon
+                    iconName={props.iconName}
+                    iconPrefix={props.iconPrefix}
+                />
             </div>
             <div className='logoText'>
                 dealeks

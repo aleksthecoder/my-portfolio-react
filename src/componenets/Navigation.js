@@ -5,7 +5,10 @@ import '../stylesheets/navigation.css'
 function Navigation(props) {
     return (
         <nav className='navBar'>
-            <Logo/>
+            <Logo
+                iconName='circle-notch'
+                iconPrefix='fas'
+            />
         </nav>
     )
 }
