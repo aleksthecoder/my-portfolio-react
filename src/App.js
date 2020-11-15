@@ -12,12 +12,15 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 
 
 import Typography from 'typography'
-const typography = new Typography({
-  baseFontSize: '13px',
-})
-typography.injectStyles()
+import parnassusTheme from 'typography-theme-parnassus'
 
+parnassusTheme.baseFontSize = '12px'
+parnassusTheme.baseLineHeight = '3px'
+
+const typography = new Typography(parnassusTheme)
+typography.injectStyles()
 library.add(fas, fab);
+
 
 function App() {
   return (

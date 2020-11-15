@@ -54,6 +54,7 @@
     align-items: center;
     justify-content: center;
     opacity: 0;
+    padding: var(--padding-mobile);
     animation: fadeIn 2s 1 forwards;
 }
 .logoText {

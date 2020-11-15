@@ -31,7 +31,7 @@
 }
 #main_section {
     background-color: var(--turquoise);
-    min-height: 45vh;
+    height: 35vh;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -40,7 +40,7 @@
     animation: animateClipPath 10s infinite forwards;
 }
 #services_section {
-    height: 50vh;
+    height: 60vh;
     min-height: 50vh;
     flex-direction: column;
     display: flex;
