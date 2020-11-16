@@ -44,7 +44,7 @@ function App() {
             >
             </Service>
             <Service 
-              iconName='server'
+              iconName='tools'
               iconPrefix='fas'
               serviceTitle='Keeping up to date.'
               serviceText=' Keeping the projects maintained with bug fixes and consistently introducing new features and updates. '

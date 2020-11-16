@@ -8,6 +8,7 @@
     flex-direction: column;
     border-bottom: 1px solid var(--dark-gray);
 }
+
 .projectLink {
     color: var(--dark-gray);
     font-size: 3vh;

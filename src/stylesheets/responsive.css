@@ -10,14 +10,14 @@
       }
 
       nav {
-         width: 75vw;
+         width: 50vw;
          margin: auto;
       }
       .logoText, .logoIcon {
          padding: 1px;
       }
       .container {
-         width: 75%;
+         width: 50vw;
          min-width: 375px;
          margin: auto;
       }
@@ -33,11 +33,24 @@
          justify-content: space-between;
          align-items: center;
          width: 30vw;
+         height: 50vh;
          border-bottom: none;
       }
-
+      .serviceIcon {
+         height: 25%;
+         font-size: 4vh;
+      }
       .serviceBody {
          text-align: center;
+         height: 75%;
+         justify-content: flex-start;
+         align-items: center;
+      }
+      .serviceBody h3 {
+         height: 25%;
+      }
+      .serviceBody p {
+         height: 75%;
       }
       .projectTile {
          width: 35vw;
@@ -47,7 +60,7 @@
          padding: 1vw;
       }
       footer {
-         width: 75vw;
+         width: 50vw;
          margin: auto;
       }
    }
