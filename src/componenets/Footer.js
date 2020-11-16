@@ -9,21 +9,9 @@ function Footer() {
                 Copyrights @ 2020 CodeAleks
             </div>
             <div className='socialIcons'>
-            <a href='#' className='socialIcon'>
+            <a href='https://github.com/aleksthecoder' className='socialIcon'>
                 <Icon
                     iconName = 'github'
-                    iconPrefix = 'fab'
-                />
-            </a>
-            <a href='#' className='socialIcon'>
-                <Icon
-                    iconName = 'linkedin'
-                    iconPrefix = 'fab'
-                />
-            </a>
-            <a href='#' className='socialIcon'>
-                <Icon
-                    iconName = 'twitter'
                     iconPrefix = 'fab'
                 />
             </a>

@@ -61,9 +61,9 @@ function App() {
           </Container>
           <Container id='projects_section'>
             <ProjecTile
-              projectTitle = 'Project 1'
-              projectLinkGithub = 'http://github.com'
-              projectLinkCodepen = 'http://codepen.com'
+              projectTitle = 'React Portoflio Website'
+              projectLinkGithub = 'https://github.com/aleksthecoder/my-portfolio-react'
+              projectLinkCodepen = 'http://codepen.com/codealeks/'
 
             />
             
