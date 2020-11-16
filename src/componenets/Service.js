@@ -2,9 +2,6 @@ import React from 'react'
 import Icon from './Icon'
 import '../stylesheets/service.css'
 
-
-
-
 function Service(props) {
 
     return (

@@ -35,5 +35,6 @@
 }
 .serviceBody p {
     font-weight: 100;
+    color: var(--white);
 }
 

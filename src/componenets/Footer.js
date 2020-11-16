@@ -17,7 +17,7 @@ function Footer() {
             </a>
             <a href='#' className='socialIcon'>
                 <Icon
-                    iconName = 'codepen'
+                    iconName = 'linkedin'
                     iconPrefix = 'fab'
                 />
             </a>

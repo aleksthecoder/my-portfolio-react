@@ -10,10 +10,16 @@ function ProjectTile(props) {
             </div>
 
             <div className='projectLinks'>
-                <a href={props.projectLink} className='projectLink'>
+                <a href={props.projectLinkGithub} className='projectLink'>
                     <Icon
-                        iconName = {props.iconName}
-                        iconPrefix = {props.iconPrefix}
+                        iconName = 'github-alt'
+                        iconPrefix = 'fab'
+                    />
+                </a>
+                <a href={props.projectLinkCodepen} className='projectLink'>
+                    <Icon
+                        iconName = 'codepen'
+                        iconPrefix = 'fab'
                     />
                 </a>
             </div>

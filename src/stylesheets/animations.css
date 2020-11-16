@@ -1,0 +1,115 @@
+@-webkit-keyframes animateClipPath {
+    0% {
+      -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 86%, 68% 91%, 30% 100%, 0 94%, 0 0);
+              clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 86%, 68% 91%, 30% 100%, 0 94%, 0 0);
+    }
+    50% {
+      -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 86%, 68% 91%, 29% 90%, 0 94%, 0 0);
+              clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 86%, 68% 91%, 29% 90%, 0 94%, 0 0);
+    }
+    100% {
+      -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 86%, 68% 91%, 30% 100%, 0 94%, 0 0);
+              clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 86%, 68% 91%, 30% 100%, 0 94%, 0 0);
+    }
+  }
+  @keyframes animateClipPath {
+    0% {
+      -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 86%, 68% 91%, 30% 100%, 0 94%, 0 0);
+              clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 86%, 68% 91%, 30% 100%, 0 94%, 0 0);
+    }
+    50% {
+      -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 86%, 68% 91%, 29% 90%, 0 94%, 0 0);
+              clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 86%, 68% 91%, 29% 90%, 0 94%, 0 0);
+    }
+    100% {
+      -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 86%, 68% 91%, 30% 100%, 0 94%, 0 0);
+              clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 86%, 68% 91%, 30% 100%, 0 94%, 0 0);
+    }
+}
+@-webkit-keyframes gradientColorChange {
+    0% {
+    color: var(--white);
+    }
+    20% {
+    color: var(--blue);
+    }
+    40% {
+    color: var(--turquoise);
+    }
+    50% {
+    color: var(--turquoise);
+    }
+    70% {
+    color: var(--blue);
+    }
+    100% {
+    color: var(--white);
+    }
+}
+@keyframes gradientColorChange {
+    0% {
+    color: var(--white);
+    }
+    20% {
+    color: var(--blue);
+    }
+    40% {
+    color: var(--turquoise);
+    }
+    50% {
+    color: var(--turquoise);
+    }
+    70% {
+    color: var(--blue);
+    }
+    100% {
+    color: var(--white);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+    opacity: 0%;
+    }
+    100% {
+    opacity: 100%;
+    }
+}
+@-webkit-keyframes fadeIn {
+    0% {
+    opacity: 0%;
+    }
+    100% {
+    opacity: 100%;
+    }
+}
+body {
+    animation: fadeIn 1s 1 forwards;
+}
+#main_section {
+    animation: animateClipPath 10s infinite forwards;
+}
+#main_section h1 {
+    animation: fadeIn 2s 1 forwards;
+}
+#main_section p {
+    animation: fadeIn 3s 1 forwards;
+}
+.serviceIcon {
+    animation: fadeIn 2s 1 forwards;
+}
+.service h3 {
+    animation: fadeIn 2s 1 forwards;
+}
+.service p {
+    animation: fadeIn 4s 1 forwards;
+}
+#projects_section {
+    animation: animateClipPath 25s infinite forwards;
+}
+.logo {
+    animation: fadeIn 2s 1 forwards;
+}
+.logoIcon {
+    animation: gradientColorChange 5s infinite forwards;
+}

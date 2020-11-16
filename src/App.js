@@ -8,6 +8,7 @@ import Footer from './componenets/Footer'
 import './stylesheets/index.css'
 import './stylesheets/responsive.css'
 import 'font-awesome/css/font-awesome.min.css';
+import './stylesheets/animations.css';
 // Font awesome 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
@@ -61,9 +62,9 @@ function App() {
           <Container id='projects_section'>
             <ProjecTile
               projectTitle = 'Project 1'
-              projectLink = 'http://google.com'
-              iconName = 'github-alt'
-              iconPrefix = 'fab'
+              projectLinkGithub = 'http://github.com'
+              projectLinkCodepen = 'http://codepen.com'
+
             />
             
           </Container>

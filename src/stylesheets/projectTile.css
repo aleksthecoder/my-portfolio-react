@@ -12,5 +12,6 @@
 .projectLink {
     color: var(--dark-gray);
     font-size: 3vh;
+    padding: 1vw;
 }
 

@@ -1,58 +1,7 @@
-@-webkit-keyframes gradientColorChange {
-    0% {
-    color: var(--white);
-    }
-    20% {
-    color: var(--blue);
-    }
-    40% {
-    color: var(--turquoise);
-    }
-    50% {
-    color: var(--turquoise);
-    }
-    70% {
-    color: var(--blue);
-    }
-    100% {
-    color: var(--white);
-    }
-}
-@keyframes gradientColorChange {
-    0% {
-    color: var(--white);
-    }
-    20% {
-    color: var(--blue);
-    }
-    40% {
-    color: var(--turquoise);
-    }
-    50% {
-    color: var(--turquoise);
-    }
-    70% {
-    color: var(--blue);
-    }
-    100% {
-    color: var(--white);
-    }
-}
-
-@keyframes fadeIn {
-    0% {
-    opacity: 0%;
-    }
-    100% {
-    opacity: 100%;
-    }
-}
-  
 .logo {
     display: flex;
     flex-direction: row;
     opacity: 0;
-    animation: fadeIn 2s 1 forwards;
 }
 .logoText {
     text-transform: uppercase;
@@ -61,7 +10,6 @@
     
 }
 .logoIcon {
-    animation: gradientColorChange 5s infinite forwards;
     animation-delay: 2s; 
     position: relative;
     padding-right: 2px;
