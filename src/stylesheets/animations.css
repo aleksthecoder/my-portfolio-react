@@ -83,9 +83,7 @@
     opacity: 100%;
     }
 }
-body {
-    animation: fadeIn 1s 1 forwards;
-}
+
 #main_section {
     animation: animateClipPath 10s infinite forwards;
 }
