@@ -1,6 +1,7 @@
 .logo {
     display: flex;
     flex-direction: row;
+    opacity: 0;
 }
 .logoText {
     text-transform: uppercase;
