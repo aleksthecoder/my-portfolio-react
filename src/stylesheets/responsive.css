@@ -8,23 +8,23 @@
 
 
       nav {
-         width: 50vw;
+         width: 75vw;
          margin: auto;
       }
       .logoText, .logoIcon {
          padding: 1px;
       }
       .container {
-         width: 50vw;
+         width: 75vw;
          min-width: 375px;
          margin: auto;
       }
       #main_section {
-         height: 45vh;
+         height: 50vh;
       }
       #services_section {
          flex-direction: row;
-         height: 50vh;
+         height: 45vh;
       }
       .service {
          flex-direction: column;
@@ -58,7 +58,7 @@
          padding: 1vw;
       }
       footer {
-         width: 50vw;
+         width: 75vw;
          margin: auto;
       }
    }
