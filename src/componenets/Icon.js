@@ -1,6 +1,4 @@
-import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import '../stylesheets/icon.css'
 
 function Icon(props) {
     return (

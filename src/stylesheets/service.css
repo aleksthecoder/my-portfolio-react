@@ -1,7 +1,6 @@
 .service {
     flex-direction: row;
     width: 75vw;
-    height: 20vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,4 +35,6 @@
 .serviceBody p {
     font-weight: 100;
     color: var(--white);
+    letter-spacing: 1px;
+    line-height: 11px;
 }

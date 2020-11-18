@@ -1,4 +1,3 @@
-import React from 'react'
 import Container from './componenets/Container'
 import Navigation from './componenets/Navigation'
 import Service from './componenets/Service'
@@ -18,7 +17,9 @@ import Obfuscate from 'react-obfuscate';
 // Typography 
 import Typography from 'typography'
 import irvingTheme from 'typography-theme-irving'
-irvingTheme.baseFontSize = '14px';
+irvingTheme.baseFontSize = '12vh';
+irvingTheme.baseLineHeight = '24px';
+
 const typography = new Typography(irvingTheme)
 typography.injectStyles()
 // Add Font awesome everywhere.

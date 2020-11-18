@@ -20,7 +20,7 @@
          margin: auto;
       }
       #main_section {
-         height: 50vh;
+         height: 45vh;
       }
       #services_section {
          flex-direction: row;
@@ -36,7 +36,8 @@
       }
       .serviceIcon {
          height: 25%;
-         font-size: 4vh;
+         font-size: 5vh;
+         border-radius: 50%;
       }
       .serviceBody {
          text-align: center;

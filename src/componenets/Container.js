@@ -1,4 +1,3 @@
-import React from 'react'
 import '../stylesheets/container.css'
 
 function Container(props) {

@@ -1,4 +1,3 @@
-import React from 'react'
 import '../stylesheets/footer.css'
 import Icon from '../componenets/Icon'
 
