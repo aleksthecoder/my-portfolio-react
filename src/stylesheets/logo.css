@@ -1,7 +1,6 @@
 .logo {
     display: flex;
     flex-direction: row;
-    opacity: 0;
     font-size: 1.5vh;
 }
 .logoText {

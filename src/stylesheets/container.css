@@ -1,5 +1,7 @@
 .container {
   padding: var(--padding-mobile);
+  min-width: 400px;
+
 }
 #main_section {
     background-color: var(--turquoise);
