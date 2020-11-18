@@ -67,7 +67,7 @@
     }
 }
 
-@keyframes fadeIn {
+/* @keyframes fadeIn {
     0% {
     opacity: 0%;
     display: none;
@@ -76,22 +76,22 @@
     opacity: 100%;
     display: visible;
     }
-}
-@-webkit-keyframes fadeIn {
+} */
+/* @-webkit-keyframes fadeIn {
     0% {
     opacity: 0%;
     }
     100% {
     opacity: 100%;
     }
-}
-body {
+} */
+/* body {
     animation: fadeIn 2s 1 forwards;
-}
+} */
 #main_section {
     animation: animateClipPath 10s infinite forwards;
 }
-#main_section h1 {
+/* #main_section h1 {
     animation: fadeIn 2s 1 forwards;
 }
 #main_section p {
@@ -105,13 +105,13 @@ body {
 }
 .service p {
     animation: fadeIn 4s 1 forwards;
-}
+} */
 #projects_section {
     animation: animateClipPath 25s infinite forwards;
 }
-.logo {
+/* .logo {
     animation: fadeIn 2s 1 forwards;
-}
+} */
 .logoIcon {
     animation: gradientColorChange 5s infinite forwards;
 }

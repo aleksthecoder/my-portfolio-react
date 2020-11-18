@@ -8,6 +8,7 @@ import Footer from './componenets/Footer'
 import './stylesheets/index.css'
 import './stylesheets/responsive.css'
 import 'font-awesome/css/font-awesome.min.css';
+import './stylesheets/animations.css';
 // Font awesome 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
