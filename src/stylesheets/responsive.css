@@ -23,7 +23,7 @@
       }
       #services_section {
          flex-direction: row;
-         height: 45vh;
+         height: 50vh;
       }
       .service {
          flex-direction: column;
@@ -50,12 +50,18 @@
       .serviceBody p {
          height: 75%;
       }
+      #project_section {
+         height: 75vh;
+      }
       .projectTile {
          width: 35vw;
          height: 30vh;
       }
       .projectLink, .socialIcon {
          padding: 1vw;
+      }
+      #contact_section {
+         height: 20vh;
       }
       footer {
          width: 75vw;
