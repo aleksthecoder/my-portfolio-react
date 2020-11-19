@@ -34,14 +34,69 @@
     opacity: 1;
   }
 }
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes gradientColorChange {
+  0% {
+      color: var(--white);
+  } 
+  20% {
+      color: var(--blue)
+  }
+  40% {
+      color: var(--turquoise);
+  }
+  50% {
+      color: var(--turquoise);
+  }
+  70% {
+      color: var(--blue)
+  }
+  100% {
+      color: var(--white);
+  }    
+}
+@keyframes gradientColorChange {
+  0% {
+      color: var(--white);
+  } 
+  20% {
+      color: var(--blue)
+  }
+  40% {
+      color: var(--turquoise);
+  }
+  50% {
+      color: var(--turquoise);
+  }
+  70% {
+      color: var(--blue)
+  }
+  100% {
+      color: var(--white);
+  }    
+}
 body {
   animation: fadeIn 1s 1 forwards;
 }
-
-#main_section {
-    animation: animateClipPath 10s infinite forwards;
+.logoIcon {
+  animation: gradientColorChange 12s infinite forwards;
 }
-
+#main_section h1, #main_section p {
+  animation: fadeIn 1s 1 forwards;
+}
+#main_section {
+  animation: animateClipPath 10s infinite forwards;
+}
+.serviceIcon {
+  animation: fadeIn 3s 1 forwards;
+}
 #projects_section {
     animation: animateClipPath 25s infinite forwards;
 }

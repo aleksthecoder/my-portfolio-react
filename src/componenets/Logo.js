@@ -4,8 +4,10 @@ function Logo(props) {
     return (
         <div className='logo'>
             <div className='logoText'>
-            codealeks
+            c
             </div>
+            <span className='logoIcon'>o</span>
+            <div className='logoText'>dealeks</div>
         </div>
         
     )
