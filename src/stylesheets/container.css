@@ -11,7 +11,7 @@
     text-align: center;
 }
 #services_section {
-    height: 70vh;
+    height: 65vh;
     flex-direction: column;
     display: flex;
     justify-content: space-evenly;
