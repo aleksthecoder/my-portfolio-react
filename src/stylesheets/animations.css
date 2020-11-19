@@ -26,7 +26,17 @@
               clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 86%, 68% 91%, 30% 100%, 0 94%, 0 0);
     }
 }
-
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+body {
+  animation: fadeIn 1s 1 forwards;
+}
 
 #main_section {
     animation: animateClipPath 10s infinite forwards;

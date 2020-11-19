@@ -1,11 +1,9 @@
 .container {
   padding: var(--padding-mobile);
-  min-width: 400px;
-
 }
 #main_section {
     background-color: var(--turquoise);
-    height: 45vh;
+    height: 30vh;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -13,18 +11,18 @@
     text-align: center;
 }
 #services_section {
-    height: 50vh;
+    height: 70vh;
     flex-direction: column;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 #projects_section {
-    height: 50vh;
+    height: 75vh;
     background-color: var(--turquoise);
 }
 #contact_section {
-    height: 45vh;
+    height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,7 +35,4 @@
 #contact_section a {
   color: var(--blue);
   text-decoration: none;
-}
-@media only screen and (min-width: 450px) {
-  
 }

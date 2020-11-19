@@ -11,7 +11,9 @@
     --blue: #408697;
     --turquoise: #52D6F4;
     --padding-mobile: 1vw;
+
 }
+
 body {
     background-color: var(--dark-gray);
 }
